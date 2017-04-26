@@ -16,6 +16,7 @@
       
       <ul class="list-group">
         <li class="list-group-item"><strong>Username:</strong> {{ user.login }}</li>
+        <li class="list-group-item"><strong>Role:</strong> {{ user.bio }}</li>
         <li class="list-group-item"><strong>Location: </strong> {{ user.location }}</li>
         <li class="list-group-item"><strong>Email:</strong> {{ user.email }}</li>
         <li class="list-group-item"><strong>Blog:</strong> {{ user.blog }}</li>
@@ -24,3 +25,18 @@
     </div>
   </div>
 </div>
+
+<ul class="list-group" *ngFor="let repo of repos">
+  <li class="list-group-item">
+    
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></h3>
+        </div>
+        <div class="panel-body">
+          
+        </div>
+    </div>
+    
+  </li>
+</ul>
