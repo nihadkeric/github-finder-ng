@@ -6,7 +6,7 @@ import 'rxjs';
 @Injectable()
 export class GithubService {
 
-  private username: string;
+  private username: string = "nihadkeric";
   private client_id = '817eae476fcd5035749c';
   private client_secret = '7d1d4659a2eb8cfe692ec5e5c42a7823bee1a59b';
   
@@ -24,6 +24,10 @@ export class GithubService {
   getRepos(){
     return this._http.get('http://api.github.com/users/'+this.username+'/repos?client_id='+this.client_id+'&client_secret='+this.client_secret)
     .map(res => res.json());
+  }
+
+  updateUser(username: string){
+    this.username = username;
   }
 
 }
