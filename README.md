@@ -1,6 +1,6 @@
 # Githubfinder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+With this app can search users on Github
 
 ### Run the Application
 
