@@ -23,3 +23,7 @@ ng serve
 * [Angular-cli](https://cli.angular.io/)
 * [Bootstrap](http://getbootstrap.com/)
 * [Github API](https://developer.github.com/v3/)
+
+## Screenshot
+
+![image](https://postimg.cc/image/tyxsgzllj/)
