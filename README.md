@@ -26,4 +26,4 @@ ng serve
 
 ## Screenshot
 
-![image](https://postimg.cc/image/tyxsgzllj/)
+![Screenshot](https://postimg.cc/image/tyxsgzllj/)
