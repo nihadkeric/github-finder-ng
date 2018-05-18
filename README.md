@@ -26,4 +26,4 @@ ng serve
 
 ## Screenshot
 
-![Screenshot](https://postimg.cc/image/tyxsgzllj/)
+![Screenshot](https://s31.postimg.cc/43e1xsjrv/github-finder-screenshot.png)
